@@ -16,7 +16,7 @@ if ( login_form ) {
             if ( email == user_email_list[key] && password == user_password_list[key] ) {
                 flag = true
                 login_form.reset()
-                window.location.href = "../index.html"
+                window.location.href = "index.html"
 
             }
         }
